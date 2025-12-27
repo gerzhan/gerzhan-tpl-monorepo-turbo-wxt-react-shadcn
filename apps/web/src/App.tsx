@@ -1,5 +1,5 @@
 import "./App.css";
-import Demo from "@repo/ui/demo";
+import Demo from "@gerzhan/ui/demo";
 
 function App() {
   return <Demo />;

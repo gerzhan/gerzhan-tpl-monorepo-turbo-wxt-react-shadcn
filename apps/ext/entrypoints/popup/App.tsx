@@ -1,4 +1,4 @@
-import Demo from "@repo/ui/demo";
+import Demo from "@gerzhan/ui/demo";
 import './App.css';
 
 function App() {
