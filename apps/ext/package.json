@@ -1,5 +1,5 @@
 {
-  "name": "wxt-react-starter",
+  "name": "gerzhan-wxt-react-starter",
   "description": "manifest.json description",
   "private": true,
   "version": "0.0.0",
@@ -17,14 +17,14 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "@gerzhan/ui": "*"
+    "@gerzhan/ui": "workspace:*"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.280",
-    "@types/react": "^19.0.1",
-    "@types/react-dom": "^19.0.2",
-    "@wxt-dev/module-react": "^1.1.2",
-    "typescript": "^5.6.3",
-    "wxt": "^0.19.13"
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "19.1.9",
+    "@wxt-dev/module-react": "1.1.3",
+    "typescript": "5.9.2",
+    "wxt": "0.20.6"
   }
 }
