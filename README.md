@@ -18,8 +18,8 @@
 - `@gerzhan/ui`: a stub React component library shared by both `web` and `docs` applications
 - `@gerzhan/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@gerzhan/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+- `@gerzhan/tailwind-config`: `tailwind.config.ts` used throughout the monorepo. sharing one `tailwind.config.ts` to apps and packages
+  Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 ### Utilities
 
@@ -29,6 +29,8 @@ This Turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
   - [prettier-plugin-organize-imports](https://www.npmjs.com/package/prettier-plugin-organize-imports)
+  - [@ianvs/prettier-plugin-sort-imports](https://www.npmjs.com/package/@ianvs/prettier-plugin-sort-imports)
+  - [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwind-css)
 
 ### Build
 
@@ -46,6 +48,15 @@ pnpm build
 ```bash
 cd your-turborepo
 pnpm dev:apps
+```
+
+## Добавление приложений
+
+```bash
+# переход в директорию
+$cd apps
+# пример создание нового приложения react
+$pnpm create vite my-react-app --template react-swc-ts
 ```
 
 ## Advance

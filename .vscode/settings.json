@@ -1,0 +1,18 @@
+{
+  "editor.defaultFormatter": "prettier.prettier-vscode",
+  "[json]": {
+    "editor.defaultFormatter": "prettier.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "prettier.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "prettier.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "prettier.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "prettier.prettier-vscode"
+  }
+}
