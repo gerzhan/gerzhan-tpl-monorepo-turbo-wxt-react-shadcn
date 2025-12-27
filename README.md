@@ -1,28 +1,17 @@
----
-name: Turborepo Monorepo
-description: Example setup of a monorepo using Turborepo.
-packages:
-- react
-- react-dom
----
+# ⭐ Gerzhan | Template Monorepo
 
-# Turborepo starter
+[github.com/gerzhan/gerzhan-tpl-monorepo-turbo-wxt-react-shadcn](https://github.com/gerzhan/gerzhan-tpl-monorepo-turbo-wxt-react-shadcn)
 
-This Turborepo starter is maintained by the Turborepo core team.
+## Источники
 
-## Using this example
+- [github.com/wxt-dev/examples/tree/main/examples/monorepo-turbo](https://github.com/wxt-dev/examples/tree/main/examples/monorepo-turbo)
+- [github.com/vercel/turborepo/blob/main/examples/with-tailwind](https://github.com/vercel/turborepo/blob/main/examples/with-tailwind)
 
-Run the following command:
+## Инструкция по применению
 
-```sh
-npx create-turbo@latest
-```
+Клонировать код репозитория или создать на основе шаблона
 
-## What's inside?
-
-This Turborepo includes the following packages/apps:
-
-### Apps and Packages
+### Перечень `Apps` и `Packages`
 
 - `docs`: a [Next.js](https://nextjs.org/) app
 - `web`: another [Next.js](https://nextjs.org/) app
@@ -39,24 +28,27 @@ This Turborepo has some additional tools already setup for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+  - [prettier-plugin-organize-imports](https://www.npmjs.com/package/prettier-plugin-organize-imports)
 
 ### Build
 
-To build all apps and packages, run the following command:
+Сборка проекта
 
-```
-cd my-turborepo
+```bash
+cd your-turborepo
 pnpm build
 ```
 
 ### Develop
 
-To develop all apps and packages, run the following command:
+Для запуска процесса разработки
 
+```bash
+cd your-turborepo
+pnpm dev:apps
 ```
-cd my-turborepo
-pnpm dev
-```
+
+## Advance
 
 ### Remote Caching
 
